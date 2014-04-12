@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C6CF0F618F11DC500BF14D4"
-               BuildableName = "Test2.app"
-               BlueprintName = "Test2"
-               ReferencedContainer = "container:Test2.xcodeproj">
+               BlueprintIdentifier = "2CE53EE218F98C43005BCEC9"
+               BuildableName = "Commutable.app"
+               BlueprintName = "Commutable"
+               ReferencedContainer = "container:Commutable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C6CF11A18F11DC500BF14D4"
-               BuildableName = "Test2Tests.xctest"
-               BlueprintName = "Test2Tests"
-               ReferencedContainer = "container:Test2.xcodeproj">
+               BlueprintIdentifier = "2CE53F0618F98C43005BCEC9"
+               BuildableName = "CommutableTests.xctest"
+               BlueprintName = "CommutableTests"
+               ReferencedContainer = "container:Commutable.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C6CF0F618F11DC500BF14D4"
-            BuildableName = "Test2.app"
-            BlueprintName = "Test2"
-            ReferencedContainer = "container:Test2.xcodeproj">
+            BlueprintIdentifier = "2CE53EE218F98C43005BCEC9"
+            BuildableName = "Commutable.app"
+            BlueprintName = "Commutable"
+            ReferencedContainer = "container:Commutable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C6CF0F618F11DC500BF14D4"
-            BuildableName = "Test2.app"
-            BlueprintName = "Test2"
-            ReferencedContainer = "container:Test2.xcodeproj">
+            BlueprintIdentifier = "2CE53EE218F98C43005BCEC9"
+            BuildableName = "Commutable.app"
+            BlueprintName = "Commutable"
+            ReferencedContainer = "container:Commutable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C6CF0F618F11DC500BF14D4"
-            BuildableName = "Test2.app"
-            BlueprintName = "Test2"
-            ReferencedContainer = "container:Test2.xcodeproj">
+            BlueprintIdentifier = "2CE53EE218F98C43005BCEC9"
+            BuildableName = "Commutable.app"
+            BlueprintName = "Commutable"
+            ReferencedContainer = "container:Commutable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

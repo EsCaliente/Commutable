@@ -1,14 +1,14 @@
 //
-//  Test2AppDelegate.m
-//  Test2
+//  CommutableAppDelegate.m
+//  Commutable
 //
-//  Created by Edward Damisch on 4/6/14.
-//  Copyright (c) 2014 Eddie. All rights reserved.
+//  Created by Edward Damisch on 4/12/14.
+//  Copyright (c) 2014 Commutable. All rights reserved.
 //
 
-#import "Test2AppDelegate.h"
+#import "CommutableAppDelegate.h"
 
-@implementation Test2AppDelegate
+@implementation CommutableAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -1,18 +1,18 @@
 //
-//  Test2Tests.m
-//  Test2Tests
+//  CommutableTests.m
+//  CommutableTests
 //
-//  Created by Edward Damisch on 4/6/14.
-//  Copyright (c) 2014 Eddie. All rights reserved.
+//  Created by Edward Damisch on 4/12/14.
+//  Copyright (c) 2014 Commutable. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Test2Tests : XCTestCase
+@interface CommutableTests : XCTestCase
 
 @end
 
-@implementation Test2Tests
+@implementation CommutableTests
 
 - (void)setUp
 {
