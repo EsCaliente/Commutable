@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C55D06D18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55D06C18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.m */; };
 		2CE53EE718F98C43005BCEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE53EE618F98C43005BCEC9 /* Foundation.framework */; };
 		2CE53EE918F98C43005BCEC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE53EE818F98C43005BCEC9 /* CoreGraphics.framework */; };
 		2CE53EEB18F98C43005BCEC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE53EEA18F98C43005BCEC9 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C55D06B18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommuteCreationScreenViewController.h; sourceTree = "<group>"; };
+		2C55D06C18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommuteCreationScreenViewController.m; sourceTree = "<group>"; };
 		2CE53EE318F98C43005BCEC9 /* Commutable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Commutable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE53EE618F98C43005BCEC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CE53EE818F98C43005BCEC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 				2CE53EF518F98C43005BCEC9 /* CommutableAppDelegate.h */,
 				2CE53EF618F98C43005BCEC9 /* CommutableAppDelegate.m */,
 				2CE53EF818F98C43005BCEC9 /* Main.storyboard */,
+				2C55D06B18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.h */,
+				2C55D06C18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.m */,
 				2CE53EFB18F98C43005BCEC9 /* CommutableFirstViewController.h */,
 				2CE53EFC18F98C43005BCEC9 /* CommutableFirstViewController.m */,
 				2CE53F1E18F991AF005BCEC9 /* CommutesTableViewController.h */,
@@ -262,6 +267,7 @@
 			files = (
 				2CE53F2318F9921D005BCEC9 /* CommutesTableViewCell.m in Sources */,
 				2CE53EFD18F98C43005BCEC9 /* CommutableFirstViewController.m in Sources */,
+				2C55D06D18F9E4AA002F6AA2 /* CommuteCreationScreenViewController.m in Sources */,
 				2CE53F2018F991AF005BCEC9 /* CommutesTableViewController.m in Sources */,
 				2CE53EF318F98C43005BCEC9 /* main.m in Sources */,
 				2CE53EF718F98C43005BCEC9 /* CommutableAppDelegate.m in Sources */,
@@ -469,6 +475,7 @@
 				2CE53F1A18F98C44005BCEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CE53F1B18F98C44005BCEC9 /* Build configuration list for PBXNativeTarget "CommutableTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +484,7 @@
 				2CE53F1D18F98C44005BCEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
