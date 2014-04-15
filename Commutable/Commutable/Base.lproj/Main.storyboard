@@ -180,7 +180,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="qfm-4w-opH" kind="push" identifier="StartingLocationEditor" id="6v9-SP-gsF"/>
+                                            <segue destination="qfm-4w-opH" kind="push" identifier="DestinationLocationEditor" id="6v9-SP-gsF"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
