@@ -23,10 +23,23 @@
     return self;
 }
 
+-(BOOL) textFieldShouldReturn:(UITextField *) textField {
+    BOOL didResign = [textField resignFirstResponder];
+    if (!didResign) return NO;
+    
+    if ([textField isKindOfClass:[nextTextField class]])
+        dispatch_async(dispatch_get_current_queue(), ^ { [[nextTextField *) textField nextField] becomeFirstResponder]; });
+    
+    
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.model = [[LocationCreatorDataController alloc] init];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,6 +47,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//When the Save New Location button is tapped, the information in the text fields should append themselves to the locationName Array, address Array, and zipCode Array.
+//Should also clear the text boxes, tell the user "Location Created" and take them back to the previous screen?
+- (IBAction)addLocationButton:(id)sender {
+    
+    _locationNamesArray = [NSMutableArray arrayWithObjects: @"Home", nil];
+   [_locationNamesArray addObject:_addLocation];
+    
+   _addressArray = [NSMutableArray arrayWithObjects:@"Home", nil];
+    
+   _zipCodeArray = [NSMutableArray arrayWithObjects:@"60124", nil];
+}
+
 
 /*
 #pragma mark - Navigation
