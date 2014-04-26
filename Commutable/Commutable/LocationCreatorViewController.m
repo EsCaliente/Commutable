@@ -14,6 +14,12 @@
 
 @implementation LocationCreatorViewController
 
+//Hide the text bar when Return is hit
+-(IBAction)textReturnField:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

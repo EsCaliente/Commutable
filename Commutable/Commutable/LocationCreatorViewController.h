@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface LocationCreatorViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *addLocationTextBox;
+@property (strong, nonatomic) IBOutlet UITextField *addStreetAddressTextBox;
+@property (strong, nonatomic) IBOutlet UITextField *addZipCodeTextBox;
 
 @end
