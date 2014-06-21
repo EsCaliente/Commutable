@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0AB596191EA5D200B1CCF0 /* CommuteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AB595191EA5D200B1CCF0 /* CommuteItem.m */; };
 		2C0BC58918FA0AE700CF12F7 /* Car Icon v2 Gradient Transparent Windows.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC58818FA0AE700CF12F7 /* Car Icon v2 Gradient Transparent Windows.png */; };
 		2C0BC58B18FA0B9A00CF12F7 /* Car Icon v2 Gradient without Windows 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC58A18FA0B9A00CF12F7 /* Car Icon v2 Gradient without Windows 58x58.png */; };
 		2C0BC58D18FA0BAD00CF12F7 /* Car Icon v2 Gradient without Windows 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC58C18FA0BAD00CF12F7 /* Car Icon v2 Gradient without Windows 80x80.png */; };
 		2C0BC58F18FA0BB600CF12F7 /* Car Icon v2 Gradient without Windows 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BC58E18FA0BB600CF12F7 /* Car Icon v2 Gradient without Windows 120x120.png */; };
+		2C19EE4D193A810A00745780 /* Commutable Logo 58px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C19EE4A193A810A00745780 /* Commutable Logo 58px.png */; };
+		2C19EE4E193A810A00745780 /* Commutable Logo 80px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C19EE4B193A810A00745780 /* Commutable Logo 80px.png */; };
+		2C19EE4F193A810A00745780 /* Commutable Logo 120px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C19EE4C193A810A00745780 /* Commutable Logo 120px.png */; };
+		2C2F1009193D563200D24F4D /* RepeatScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F1008193D563200D24F4D /* RepeatScheduleTableViewController.m */; };
+		2C5B0000193A916700A229EA /* Commutes Tab Car Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BFFFF193A916700A229EA /* Commutes Tab Car Icon.png */; };
+		2C5B0002193A929D00A229EA /* Commutes Tab Car Icon 50px.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B0001193A929D00A229EA /* Commutes Tab Car Icon 50px.png */; };
+		2CA120D61929637C004825D4 /* Commutable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CA120D41929637C004825D4 /* Commutable.xcdatamodeld */; };
+		2CC89D7B191558C2009F6F7E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CC89D7A191558C2009F6F7E /* GoogleMaps.bundle */; };
 		2CD2000018FB3559005F1338 /* CommuteCreatorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2FFFF18FB3559005F1338 /* CommuteCreatorTableViewController.m */; };
 		2CD2000318FB3B0D005F1338 /* LocationCreatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2000218FB3B0D005F1338 /* LocationCreatorViewController.m */; };
 		2CE53EE718F98C43005BCEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE53EE618F98C43005BCEC9 /* Foundation.framework */; };
@@ -29,6 +38,22 @@
 		2CE53F1518F98C44005BCEC9 /* CommutableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE53F1418F98C44005BCEC9 /* CommutableTests.m */; };
 		2CE53F2018F991AF005BCEC9 /* CommutesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE53F1F18F991AF005BCEC9 /* CommutesTableViewController.m */; };
 		2CE53F2318F9921D005BCEC9 /* CommutesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE53F2218F9921D005BCEC9 /* CommutesTableViewCell.m */; };
+		2CF4DA8A19169A3C003762D3 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4DA8919169A3C003762D3 /* LocationItem.m */; };
+		790DA2231920C4D10011C2DE /* map.html in Resources */ = {isa = PBXBuildFile; fileRef = 790DA2221920C4D10011C2DE /* map.html */; };
+		797883021943E0C9006AD6FD /* MDDirectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 797883011943E0C8006AD6FD /* MDDirectionService.m */; };
+		79AB6D01191099350013E1D6 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D00191099340013E1D6 /* GoogleMaps.framework */; };
+		79AB6D051910997C0013E1D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D041910997C0013E1D6 /* AVFoundation.framework */; };
+		79AB6D07191099830013E1D6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D06191099830013E1D6 /* CoreData.framework */; };
+		79AB6D09191099890013E1D6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D08191099890013E1D6 /* CoreText.framework */; };
+		79AB6D0B1910998F0013E1D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D0A1910998F0013E1D6 /* CoreLocation.framework */; };
+		79AB6D0D191099950013E1D6 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D0C191099950013E1D6 /* GLKit.framework */; };
+		79AB6D0F1910999C0013E1D6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D0E1910999B0013E1D6 /* ImageIO.framework */; };
+		79AB6D11191099AA0013E1D6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D10191099AA0013E1D6 /* libc++.dylib */; };
+		79AB6D13191099BD0013E1D6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D12191099BD0013E1D6 /* libicucore.dylib */; };
+		79AB6D15191099C80013E1D6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D14191099C80013E1D6 /* OpenGLES.framework */; };
+		79AB6D17191099DA0013E1D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D16191099DA0013E1D6 /* QuartzCore.framework */; };
+		79AB6D19191099E20013E1D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D18191099E20013E1D6 /* SystemConfiguration.framework */; };
+		79AB6D1B19109ADD0013E1D6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AB6D1A19109ADD0013E1D6 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +67,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0AB594191EA5D200B1CCF0 /* CommuteItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommuteItem.h; sourceTree = "<group>"; };
+		2C0AB595191EA5D200B1CCF0 /* CommuteItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommuteItem.m; sourceTree = "<group>"; };
 		2C0BC58818FA0AE700CF12F7 /* Car Icon v2 Gradient Transparent Windows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Icon v2 Gradient Transparent Windows.png"; sourceTree = "<group>"; };
 		2C0BC58A18FA0B9A00CF12F7 /* Car Icon v2 Gradient without Windows 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Icon v2 Gradient without Windows 58x58.png"; sourceTree = "<group>"; };
 		2C0BC58C18FA0BAD00CF12F7 /* Car Icon v2 Gradient without Windows 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Icon v2 Gradient without Windows 80x80.png"; sourceTree = "<group>"; };
 		2C0BC58E18FA0BB600CF12F7 /* Car Icon v2 Gradient without Windows 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Icon v2 Gradient without Windows 120x120.png"; sourceTree = "<group>"; };
+		2C19EE4A193A810A00745780 /* Commutable Logo 58px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commutable Logo 58px.png"; sourceTree = "<group>"; };
+		2C19EE4B193A810A00745780 /* Commutable Logo 80px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commutable Logo 80px.png"; sourceTree = "<group>"; };
+		2C19EE4C193A810A00745780 /* Commutable Logo 120px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commutable Logo 120px.png"; sourceTree = "<group>"; };
+		2C2F1007193D563200D24F4D /* RepeatScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatScheduleTableViewController.h; sourceTree = "<group>"; };
+		2C2F1008193D563200D24F4D /* RepeatScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatScheduleTableViewController.m; sourceTree = "<group>"; };
+		2C5B0001193A929D00A229EA /* Commutes Tab Car Icon 50px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commutes Tab Car Icon 50px.png"; sourceTree = "<group>"; };
+		2C5BFFFF193A916700A229EA /* Commutes Tab Car Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commutes Tab Car Icon.png"; sourceTree = "<group>"; };
+		2CA120D51929637C004825D4 /* Commutable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Commutable.xcdatamodel; sourceTree = "<group>"; };
+		2CC89D7A191558C2009F6F7E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		2CD2000118FB3B0D005F1338 /* LocationCreatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCreatorViewController.h; sourceTree = "<group>"; };
 		2CD2000218FB3B0D005F1338 /* LocationCreatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCreatorViewController.m; sourceTree = "<group>"; };
 		2CD2FFFE18FB3559005F1338 /* CommuteCreatorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommuteCreatorTableViewController.h; path = ../CommuteCreatorTableViewController.h; sourceTree = "<group>"; };
@@ -73,6 +109,24 @@
 		2CE53F1F18F991AF005BCEC9 /* CommutesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommutesTableViewController.m; sourceTree = "<group>"; };
 		2CE53F2118F9921D005BCEC9 /* CommutesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommutesTableViewCell.h; sourceTree = "<group>"; };
 		2CE53F2218F9921D005BCEC9 /* CommutesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommutesTableViewCell.m; sourceTree = "<group>"; };
+		2CF4DA8819169A3C003762D3 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
+		2CF4DA8919169A3C003762D3 /* LocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItem.m; sourceTree = "<group>"; };
+		790DA2221920C4D10011C2DE /* map.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = map.html; sourceTree = "<group>"; };
+		797883001943E0C8006AD6FD /* MDDirectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDirectionService.h; sourceTree = "<group>"; };
+		797883011943E0C8006AD6FD /* MDDirectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDirectionService.m; sourceTree = "<group>"; };
+		79AB6D00191099340013E1D6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		79AB6D041910997C0013E1D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79AB6D06191099830013E1D6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79AB6D08191099890013E1D6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		79AB6D0A1910998F0013E1D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79AB6D0C191099950013E1D6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		79AB6D0E1910999B0013E1D6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		79AB6D10191099AA0013E1D6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		79AB6D12191099BD0013E1D6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		79AB6D14191099C80013E1D6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		79AB6D16191099DA0013E1D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79AB6D18191099E20013E1D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79AB6D1A19109ADD0013E1D6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +134,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AB6D1B19109ADD0013E1D6 /* libz.dylib in Frameworks */,
+				79AB6D19191099E20013E1D6 /* SystemConfiguration.framework in Frameworks */,
+				79AB6D17191099DA0013E1D6 /* QuartzCore.framework in Frameworks */,
+				79AB6D15191099C80013E1D6 /* OpenGLES.framework in Frameworks */,
+				79AB6D13191099BD0013E1D6 /* libicucore.dylib in Frameworks */,
+				79AB6D11191099AA0013E1D6 /* libc++.dylib in Frameworks */,
+				79AB6D0F1910999C0013E1D6 /* ImageIO.framework in Frameworks */,
+				79AB6D0D191099950013E1D6 /* GLKit.framework in Frameworks */,
+				79AB6D0B1910998F0013E1D6 /* CoreLocation.framework in Frameworks */,
+				79AB6D09191099890013E1D6 /* CoreText.framework in Frameworks */,
+				79AB6D07191099830013E1D6 /* CoreData.framework in Frameworks */,
+				79AB6D051910997C0013E1D6 /* AVFoundation.framework in Frameworks */,
 				2CE53EE918F98C43005BCEC9 /* CoreGraphics.framework in Frameworks */,
 				2CE53EEB18F98C43005BCEC9 /* UIKit.framework in Frameworks */,
+				79AB6D01191099350013E1D6 /* GoogleMaps.framework in Frameworks */,
 				2CE53EE718F98C43005BCEC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +188,20 @@
 		2CE53EE518F98C43005BCEC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CC89D7A191558C2009F6F7E /* GoogleMaps.bundle */,
+				79AB6D1A19109ADD0013E1D6 /* libz.dylib */,
+				79AB6D18191099E20013E1D6 /* SystemConfiguration.framework */,
+				79AB6D16191099DA0013E1D6 /* QuartzCore.framework */,
+				79AB6D14191099C80013E1D6 /* OpenGLES.framework */,
+				79AB6D12191099BD0013E1D6 /* libicucore.dylib */,
+				79AB6D10191099AA0013E1D6 /* libc++.dylib */,
+				79AB6D0E1910999B0013E1D6 /* ImageIO.framework */,
+				79AB6D0C191099950013E1D6 /* GLKit.framework */,
+				79AB6D0A1910998F0013E1D6 /* CoreLocation.framework */,
+				79AB6D08191099890013E1D6 /* CoreText.framework */,
+				79AB6D06191099830013E1D6 /* CoreData.framework */,
+				79AB6D041910997C0013E1D6 /* AVFoundation.framework */,
+				79AB6D00191099340013E1D6 /* GoogleMaps.framework */,
 				2CE53EE618F98C43005BCEC9 /* Foundation.framework */,
 				2CE53EE818F98C43005BCEC9 /* CoreGraphics.framework */,
 				2CE53EEA18F98C43005BCEC9 /* UIKit.framework */,
@@ -132,21 +213,31 @@
 		2CE53EEC18F98C43005BCEC9 /* Commutable */ = {
 			isa = PBXGroup;
 			children = (
+				797883001943E0C8006AD6FD /* MDDirectionService.h */,
+				797883011943E0C8006AD6FD /* MDDirectionService.m */,
 				2CE53EF518F98C43005BCEC9 /* CommutableAppDelegate.h */,
 				2CE53EF618F98C43005BCEC9 /* CommutableAppDelegate.m */,
+				2CA120D41929637C004825D4 /* Commutable.xcdatamodeld */,
 				2CE53EF818F98C43005BCEC9 /* Main.storyboard */,
-				2CD2000118FB3B0D005F1338 /* LocationCreatorViewController.h */,
-				2CD2000218FB3B0D005F1338 /* LocationCreatorViewController.m */,
 				2CE53EFB18F98C43005BCEC9 /* CommutableFirstViewController.h */,
 				2CE53EFC18F98C43005BCEC9 /* CommutableFirstViewController.m */,
 				2CE53F1E18F991AF005BCEC9 /* CommutesTableViewController.h */,
 				2CE53F1F18F991AF005BCEC9 /* CommutesTableViewController.m */,
-				2CD2FFFE18FB3559005F1338 /* CommuteCreatorTableViewController.h */,
-				2CD2FFFF18FB3559005F1338 /* CommuteCreatorTableViewController.m */,
 				2CE53F2118F9921D005BCEC9 /* CommutesTableViewCell.h */,
 				2CE53F2218F9921D005BCEC9 /* CommutesTableViewCell.m */,
+				2C0AB594191EA5D200B1CCF0 /* CommuteItem.h */,
+				2C0AB595191EA5D200B1CCF0 /* CommuteItem.m */,
+				2CD2FFFE18FB3559005F1338 /* CommuteCreatorTableViewController.h */,
+				2CD2FFFF18FB3559005F1338 /* CommuteCreatorTableViewController.m */,
+				2CD2000118FB3B0D005F1338 /* LocationCreatorViewController.h */,
+				2CD2000218FB3B0D005F1338 /* LocationCreatorViewController.m */,
+				2CF4DA8819169A3C003762D3 /* LocationItem.h */,
+				2CF4DA8919169A3C003762D3 /* LocationItem.m */,
+				2C2F1007193D563200D24F4D /* RepeatScheduleTableViewController.h */,
+				2C2F1008193D563200D24F4D /* RepeatScheduleTableViewController.m */,
 				2CE53F0118F98C43005BCEC9 /* Images.xcassets */,
 				2CE53EED18F98C43005BCEC9 /* Supporting Files */,
+				790DA2221920C4D10011C2DE /* map.html */,
 			);
 			path = Commutable;
 			sourceTree = "<group>";
@@ -154,6 +245,11 @@
 		2CE53EED18F98C43005BCEC9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C5B0001193A929D00A229EA /* Commutes Tab Car Icon 50px.png */,
+				2C5BFFFF193A916700A229EA /* Commutes Tab Car Icon.png */,
+				2C19EE4A193A810A00745780 /* Commutable Logo 58px.png */,
+				2C19EE4B193A810A00745780 /* Commutable Logo 80px.png */,
+				2C19EE4C193A810A00745780 /* Commutable Logo 120px.png */,
 				2C0BC58A18FA0B9A00CF12F7 /* Car Icon v2 Gradient without Windows 58x58.png */,
 				2C0BC58818FA0AE700CF12F7 /* Car Icon v2 Gradient Transparent Windows.png */,
 				2C0BC58E18FA0BB600CF12F7 /* Car Icon v2 Gradient without Windows 120x120.png */,
@@ -261,12 +357,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C19EE4D193A810A00745780 /* Commutable Logo 58px.png in Resources */,
+				2C19EE4F193A810A00745780 /* Commutable Logo 120px.png in Resources */,
+				2CC89D7B191558C2009F6F7E /* GoogleMaps.bundle in Resources */,
 				2CE53F0218F98C43005BCEC9 /* Images.xcassets in Resources */,
 				2C0BC58F18FA0BB600CF12F7 /* Car Icon v2 Gradient without Windows 120x120.png in Resources */,
 				2C0BC58918FA0AE700CF12F7 /* Car Icon v2 Gradient Transparent Windows.png in Resources */,
 				2C0BC58B18FA0B9A00CF12F7 /* Car Icon v2 Gradient without Windows 58x58.png in Resources */,
+				2C5B0002193A929D00A229EA /* Commutes Tab Car Icon 50px.png in Resources */,
+				790DA2231920C4D10011C2DE /* map.html in Resources */,
+				2C19EE4E193A810A00745780 /* Commutable Logo 80px.png in Resources */,
 				2C0BC58D18FA0BAD00CF12F7 /* Car Icon v2 Gradient without Windows 80x80.png in Resources */,
 				2CE53EF118F98C43005BCEC9 /* InfoPlist.strings in Resources */,
+				2C5B0000193A916700A229EA /* Commutes Tab Car Icon.png in Resources */,
 				2CE53EFA18F98C43005BCEC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,9 +390,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE53F2318F9921D005BCEC9 /* CommutesTableViewCell.m in Sources */,
+				2CF4DA8A19169A3C003762D3 /* LocationItem.m in Sources */,
+				797883021943E0C9006AD6FD /* MDDirectionService.m in Sources */,
+				2CA120D61929637C004825D4 /* Commutable.xcdatamodeld in Sources */,
 				2CD2000318FB3B0D005F1338 /* LocationCreatorViewController.m in Sources */,
+				2C2F1009193D563200D24F4D /* RepeatScheduleTableViewController.m in Sources */,
 				2CE53EFD18F98C43005BCEC9 /* CommutableFirstViewController.m in Sources */,
 				2CE53F2018F991AF005BCEC9 /* CommutesTableViewController.m in Sources */,
+				2C0AB596191EA5D200B1CCF0 /* CommuteItem.m in Sources */,
 				2CD2000018FB3559005F1338 /* CommuteCreatorTableViewController.m in Sources */,
 				2CE53EF318F98C43005BCEC9 /* main.m in Sources */,
 				2CE53EF718F98C43005BCEC9 /* CommutableAppDelegate.m in Sources */,
@@ -376,6 +484,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -407,6 +516,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -417,6 +527,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Commutable/Commutable-Prefix.pch";
 				INFOPLIST_FILE = "Commutable/Commutable-Info.plist";
@@ -430,6 +544,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Commutable/Commutable-Prefix.pch";
 				INFOPLIST_FILE = "Commutable/Commutable-Info.plist";
@@ -509,6 +627,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CA120D41929637C004825D4 /* Commutable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CA120D51929637C004825D4 /* Commutable.xcdatamodel */,
+			);
+			currentVersion = 2CA120D51929637C004825D4 /* Commutable.xcdatamodel */;
+			path = Commutable.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2CE53EDB18F98C43005BCEC9 /* Project object */;
 }
